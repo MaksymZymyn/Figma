@@ -1,0 +1,444 @@
+@media all and
+(max-device-width: 100%) and
+(max-device-height: 100%)
+
+* {
+transition: .1s ease-in-out;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #F9F9FA;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    }
+
+.cap {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 5.6vh;
+        margin-bottom: 2.6vh;
+        }
+        
+    .left {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 10.9vw;
+        height: 3.9vh;
+        margin: 1.1vh 20.8vw 0.6vh 1.2vw;
+        }
+       
+    .tools {
+        position: relative;
+        justify-content: flex-start;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        width: 34.2vw;
+        height: 3.9vh;
+        }
+
+        .search {
+        justify-content: flex-start;
+        display: flex; 
+        align-items: center; 
+        width: 31.4vw;
+        height: 3.9vh;
+        border-top: 0.5vh solid #E4E4E7;
+        border-bottom: 0.5vh solid #E4E4E7;
+        border-right: 0.5vh solid #E4E4E7;
+        border-radius: 0.5vh;
+        /* Не получилось задать нормально: */
+        /* border: 0.5vh solid #E4E4E7;
+        border-radius: 0.5vh; */
+        }
+           
+        .fieldmaster {
+        align-items: center; 
+        width: 26.7vw;
+        max-height: 3.9vh;
+        border: 0.5vh solid #E4E4E7;
+        border-radius: 0.5vh 0 0 0.5vh;
+        /* border-right: 0.5vh solid #E4E4E7; */
+        }
+        
+        .Tsearch {
+        width: 25.7vw;
+        height: 2.2vh;
+        font-size: 2vh; 
+        margin-top: 0.85vh;
+        margin-left: 0.5vw;
+        color: #D4D4D8;
+        }
+                 
+        .frameSearch {
+        margin-left: 0.6vw;
+        }
+        
+    .right {
+        position: relative;
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-end;
+        width: 14.5vw;
+        height: 3.5vh;
+        margin-left: 17.5vw;
+        margin-right: 0.9vw;
+        }
+
+        .iconsRight {
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-start; 
+        position: relative;
+        width: 7.2vw;
+        max-height: 2.6vh;
+        margin-top: 0.4vh;
+        margin-right: 0.7vw;
+        }
+
+        .rightIcon {
+        margin-right: 1.3vw;
+        }
+
+        .avatar {
+        margin-left: 0.6vw;
+        position: relative;
+        } 
+
+.pageContent {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100vw;
+        height: 91.8vh;
+        margin: 0;
+        }
+
+    .main {
+        position: relative;
+        float:right;
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-width: 74.5vw;
+        height: 89.2vh;
+        margin: 0 1.2vw 2.6vh 1.2vw;
+        border: none;
+        }
+
+        .videothumbnail {
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-width: 74.5vw;
+        height: 57.7vh; 
+        border: none;
+        overflow: hidden;
+        margin: 0;
+        }
+
+        .title {        
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        justify-content: flex-start;
+        width: 74.5vw; 
+        }
+
+        .videoTitle {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        justify-content: center;
+        width: 74.5vw;
+        height: 6.5vh;
+        font-size: 1.9vh; 
+        font-weight: 500; 
+        height: 3vh; 
+        color: rgba(24, 24, 27, 1);
+        white-space:nowrap;
+        }
+
+        .metadata {
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        width: 74.5vw;
+        height: 2.6vh;
+        }
+
+        .metadataLeft {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 14.7vw;
+        height: 2.2vh;
+        margin-top: 0.2vh;
+        }
+
+        .metadataLeftText {
+        font-size: 1.5vh; 
+        height: 2.2vh; 
+        color: rgba(107, 114, 128, 1);
+        font-weight: 500;
+        white-space:nowrap;
+        display: flex;
+        align-items: center;
+        }
+
+        #viewsTitle, #may {
+        width: auto;
+        }
+
+        #pointTitle {
+        width: 0.6vw;
+        margin: 0 0.3vw;   
+        align-items: center;
+        justify-content: center;
+        }
+
+        .like {
+        margin-left: 25.8vw; 
+        }
+    
+        .overflow {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 1.7vw;
+        height: 2.6vh;
+        margin-left: 1.3vw;
+        }
+
+        .line {
+        width: 74.5vw;
+        height: 0.1vh;
+        margin-top: 1.9vh;
+        margin-bottom: 1.7vh;
+        }
+
+        .titletop {
+        min-width: 74.5vw;
+        display: flex;
+        align-items: flex-start; 
+        justify-content: space-between;
+        height: 5.2vh;
+        margin-bottom: 1.7vh;
+        }
+
+        .userflag {
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-start;
+        width: 14.2vw;
+        height: 5.2vh;
+        }
+
+        .userflagdetails {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: flex-start;
+        width: 9.7vw;
+        height: 3.9vh;
+        margin-left: 1.1vw;
+        }
+
+        .WhitneyBlessing {
+        font-size: 1.5vh; 
+        font-weight: 500; 
+        height: 2.2vh; 
+        color: rgba(24, 24, 27, 1);
+        width: 9.7vw;
+        display: flex;
+        align-items: center;
+        }
+
+        .WhitneyGmail {
+        font-size: 1.3vh; 
+        height: 1.7vh; 
+        color: rgba(115, 115, 115, 1);
+        font-weight: normal;
+        width: 6.9vw;
+        display: flex;
+        align-items: center;
+        }
+
+        .button {
+        background-color: rgba(220, 38, 38, 1); 
+        box-shadow: 0px 1px 2px rgba(31, 41, 55, 0.08); 
+        border-radius: 0.5vh; 
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 7.7vw;
+        height: 3.9vh;
+        margin-top: 0.65vh;
+        }
+
+        .textbutton {
+        font-size: 1.5vh; 
+        font-weight: 500; 
+        height: 2.2vh; 
+        color: white;
+        width: 5.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .description {
+        display: flex; 
+        flex-direction: column; 
+        align-items: flex-start; 
+        justify-content: flex-start; 
+        min-width: 74.5vw;
+        height: 12.1vh;
+        }
+
+        .descriptionfind {
+        width: 43.5vw; 
+        font-size: 1.5vh; 
+        line-height: 2.2vh; 
+        color: rgba(24, 24, 27, 1);
+        font-weight: normal;
+        height: 8.8vh;
+        display: flex;
+        align-items: center;
+        margin: 0 18.1vw 1.7vh 4.4vw; 
+        }
+
+        .descriptionshow {
+        width: 43.5vw; 
+        font-size: 1.3vh; 
+        font-weight: 500; 
+        height: 1.5vh; 
+        color: rgba(113, 113, 122, 1);
+        margin: 0 18.1vw 0 4.4vw; 
+        display: flex;
+        align-items: center;
+        }
+
+    .videoList {
+        display: flex; 
+        flex-direction: column; 
+        align-items: flex-start; 
+        justify-content: flex-start;
+        position: relative;
+        min-width: auto;
+        max-height: 88.8vh;
+        margin: 0 2.7vw 3vh 0;
+        }
+
+        .item {
+        float:left;
+        align-items: flex-start; 
+        justify-content: flex-start;
+        position: relative;
+        min-width: auto;
+        max-height: 10.3vh;
+        margin-bottom: 0.8vh;
+        }
+
+        .itemImg {
+        position: relative;
+        float:left;
+        max-height: 10.3vh;
+        margin-right: 0.6vw;
+        }
+
+        .itemDetails {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        justify-content: flex-start;
+        position: relative;
+        min-width: auto;
+        max-height: 10.3vh;
+        }
+
+        .itemDescriptionHeader {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        font-size: 1.5vh; 
+        font-weight: 500; 
+        color: #18181B; 
+        white-space:nowrap;
+        min-width: auto;
+        max-height: 4.4vh;
+        line-height: 2.2vh;
+        margin-top: -0.5vh;
+        margin-bottom: 0.4vh;
+        }
+
+        .boxChannelName {
+        position: relative;
+        display: flex;
+        align-items: center; 
+        justify-content: flex-start;
+        max-width: auto;
+        max-height: 1.7vh;
+        margin-bottom: 0.4vh;
+        }
+
+        .textChannelName {
+        position: relative;
+        font-size: 1.3vh; 
+        font-weight: 500; 
+        color: #71717A;
+        white-space:nowrap;
+        min-width: auto;
+        max-height: 1.7vh;
+        display: flex;
+        align-items: center;
+        margin-right: 0.6vw;
+        }
+
+        .ViewsAgesBox {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; 
+        min-width: auto;
+        height: 1.7vh;
+        }
+
+        .ViewsAgesText {
+        position: relative;
+        font-size: 1.3vh; 
+        font-weight: 500; 
+        height: 1.7vh; 
+        color: #71717A;
+        white-space:nowrap;
+        display: flex;
+        align-items: center;
+        }
+
+        #pointViewsAges {
+        position: relative;
+        width: 0.5vw;
+        margin: 0 0.3vw;    
+        }
+
+    
+
+    
+
+        
+
+        
+
+
+
+        
